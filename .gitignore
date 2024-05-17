@@ -1,13 +1,21 @@
+# Ignore compiled binaries
 *.bin
+*.exe
+*.in
+*.out
+
+# Ignore intermediate files
 *.prob
 *.json
 .*
+
+# Ignore specific file types
 *.h
 *.sh
-*.out
-*.in
 *.java
-info.plist
 *.txt
-*.bin
 *.py
+main
+
+# Ignore platform-specific files
+info.plist
